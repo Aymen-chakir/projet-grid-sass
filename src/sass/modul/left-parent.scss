@@ -1,0 +1,16 @@
+.left-parent{
+    display: grid;
+    grid-template-rows:1fr 1fr ;
+    .top-left{
+        display: grid;
+        grid-template-columns: 75% 20%;
+        gap: 20px;
+        .gray-top{
+            background-color: white;
+        }
+        .purple-top{
+            background-color:#733FC8;
+        }
+    }
+
+}

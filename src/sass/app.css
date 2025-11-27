@@ -1,5 +1,19 @@
+.left-parent {
+  background-color: aquamarine;
+}
+
 .container {
   width: 99vw;
-  height: 99vh;
+  height: 96vh;
   background-color: rgb(211, 219, 226);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grand-parent {
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 80% 1fr;
 }/*# sourceMappingURL=app.css.map */

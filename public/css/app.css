@@ -1,7 +1,33 @@
+.left-parent {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.left-parent .top-left {
+  display: grid;
+  grid-template-columns: 75% 20%;
+  gap: 20px;
+}
+.left-parent .top-left .gray-top {
+  background-color: white;
+}
+.left-parent .top-left .purple-top {
+  background-color: #733FC8;
+}
+
 .container {
   width: 99vw;
   height: 96vh;
   background-color: rgb(211, 219, 226);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grand-parent {
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 80% 1fr;
 }
 
 /*# sourceMappingURL=app.css.map */
