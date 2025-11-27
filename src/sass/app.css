@@ -1,5 +1,59 @@
 .left-parent {
-  background-color: aquamarine;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+.left-parent .top-left {
+  display: grid;
+  grid-template-columns: 65% 30%;
+  gap: 30px;
+}
+.left-parent .top-left .gray-top {
+  background-color: #49556C;
+  border-radius: 10px;
+}
+.left-parent .top-left .purple-top {
+  background-color: #733FC8;
+  border-radius: 10px;
+  background-image: url(../../../mini-exo/images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 0%;
+}
+.left-parent .top-left .purple-top .purple-div {
+  height: 60px;
+  display: flex;
+  padding-left: 10px;
+  gap: 20px;
+  align-items: center;
+  padding-top: 10px;
+}
+.left-parent .top-left .purple-top .purple-div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.left-parent .top-left .purple-top .purple-div .child {
+  background-color: #18202D;
+  width: 30px;
+  height: 30px;
+}
+.left-parent .bottom-left {
+  display: grid;
+  grid-template-columns: 30% 65%;
+  gap: 30px;
+}
+.left-parent .bottom-left .black-bottom {
+  background-color: #18202D;
+  border-radius: 10px;
+}
+.left-parent .bottom-left .whit-bottom {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.right-parent {
+  background-color: white;
+  border-radius: 10px;
 }
 
 .container {
@@ -12,8 +66,8 @@
 }
 
 .grand-parent {
-  width: 80%;
-  height: 80%;
+  width: 85%;
+  height: 85%;
   display: grid;
-  grid-template-columns: 80% 1fr;
+  grid-template-columns: 75% 1fr;
 }/*# sourceMappingURL=app.css.map */

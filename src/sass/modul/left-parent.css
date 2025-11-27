@@ -1,15 +1,126 @@
-.left-parent {
+.top-left {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 65% 30%;
+  grid-template-rows: 250px;
+  gap: 30px;
 }
-.left-parent .top-left {
-  display: grid;
-  grid-template-columns: 75% 20%;
+.top-left .gray-top {
+  background-color: #49556C;
+  border-radius: 10px;
+}
+.top-left .gray-top div {
   gap: 20px;
 }
-.left-parent .top-left .gray-top {
-  background-color: white;
+.top-left .gray-top div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px rgba(154, 152, 152, 0.664) solid;
 }
-.left-parent .top-left .purple-top {
+.top-left .gray-top .gray-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-left .gray-top .bottom-gr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  position: relative;
+}
+.top-left .gray-top .bottom-gr h5 {
+  color: aliceblue;
+  background-color: #1556ce;
+}
+.top-left .gray-top .bottom-gr p {
+  color: rgba(155, 154, 154, 0.792);
+  position: absolute;
+  top: 40px;
+}
+.top-left .purple-top {
   background-color: #733FC8;
+  border-radius: 10px;
+  background-image: url(../../../mini-exo/images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 0%;
+  gap: 30px;
+}
+.top-left .purple-top .purple-div,
+.top-left .purple-top .gray-top {
+  height: 60px;
+  display: flex;
+  padding-left: 10px;
+  gap: 20px;
+  align-items: center;
+  padding-top: 10px;
+}
+.top-left .purple-top .purple-div img,
+.top-left .purple-top .gray-top img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px rgba(154, 152, 152, 0.664) solid;
+}
+.top-left .purple-top .purple-div .child,
+.top-left .purple-top .gray-top .child {
+  padding-inline: 20px;
+}
+.top-left .purple-top .purple-div .child p,
+.top-left .purple-top .gray-top .child p {
+  color: rgba(77, 76, 76, 0.792);
+}
+.top-left .purple-top .purple-div .child h3,
+.top-left .purple-top .gray-top .child h3 {
+  color: rgba(240, 248, 255, 0.804);
+}
+.top-left .purple-top .para {
+  padding-inline: 20px;
+  padding-bottom: 20px;
+}
+.top-left .purple-top .para h5 {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+.top-left .purple-top .para p {
+  color: rgba(178, 174, 174, 0.886);
+}
+
+.bottom-left {
+  display: grid;
+  grid-template-columns: 30% 65%;
+  grid-template-rows: 250px;
+  height: 250px;
+  gap: 30px;
+  padding-top: 40px;
+}
+.bottom-left .black-bottom {
+  background-color: #18202D;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 100px 1fr 1fr;
+}
+.bottom-left .black-bottom .black-img {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  gap: 20px;
+}
+.bottom-left .black-bottom .black-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px rgba(154, 152, 152, 0.664) solid;
+}
+.bottom-left .whit-bottom {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.right-parent {
+  background-color: white;
+  border-radius: 10px;
+  height: 80vh;
 }/*# sourceMappingURL=left-parent.css.map */
